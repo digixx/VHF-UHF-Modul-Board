@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name _DW_Adafruit)(type KiCad)(uri "D:/Dropbox/Development/KiCad/User Library/Footprints/_digitalwire_adafruit.pretty")(options "")(descr ""))
+  (lib (name _DW_RFModules)(type KiCad)(uri "D:/Dropbox/Development/KiCad/User Library/Footprints/_digitalwire_rfmodules.pretty")(options "")(descr ""))
+  (lib (name _DW_Divers)(type KiCad)(uri "D:/Dropbox/Development/KiCad/User Library/Footprints/_digitalwire_divers.pretty")(options "")(descr ""))
+)

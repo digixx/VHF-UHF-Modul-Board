@@ -1,0 +1,6 @@
+(sym_lib_table
+  (lib (name _DW-Adafruit)(type Legacy)(uri "D:/Dropbox/Development/KiCad/User Library/Symbols/_digitalwire_adafruit.lib")(options "")(descr ""))
+  (lib (name _DW-RFModule)(type Legacy)(uri "D:/Dropbox/Development/KiCad/User Library/Symbols/_digitalwire_dra818x.lib")(options "")(descr ""))
+  (lib (name _DW_Power)(type Legacy)(uri "D:/Dropbox/Development/KiCad/User Library/Symbols/_digitalwire_power.lib")(options "")(descr ""))
+  (lib (name _DW_Diverse)(type Legacy)(uri "D:/Dropbox/Development/KiCad/User Library/Symbols/_digitalwire_diverse.lib")(options "")(descr ""))
+)
