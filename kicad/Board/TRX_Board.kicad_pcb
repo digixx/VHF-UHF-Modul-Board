@@ -6,9 +6,9 @@
 
   (paper "A4")
   (title_block
-    (title "TRX Module Board")
-    (date "2021-12-18")
-    (rev "V 1.0")
+    (title "VHF-UHF TRX-Board")
+    (date "2021-12-26")
+    (rev "V 1.0a")
     (company "digitalwire.ch")
   )
 

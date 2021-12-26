@@ -4,6 +4,13 @@
 
   (paper "A4")
 
+  (title_block
+    (title "VHF-UHF TRX-Board")
+    (date "2021-12-26")
+    (rev "V 1.0a")
+    (company "digitalwire.ch")
+  )
+
   (lib_symbols
     (symbol "Amplifier_Audio:LM386" (pin_names (offset 0.127)) (in_bom yes) (on_board yes)
       (property "Reference" "U" (id 0) (at 1.27 7.62 0)
@@ -1325,7 +1332,6 @@
       )
     )
   )
-
 
   (junction (at 205.74 72.39) (diameter 0) (color 0 0 0 0)
     (uuid 165f4d8d-26a9-4cf2-a8d6-9936cd983be4)
