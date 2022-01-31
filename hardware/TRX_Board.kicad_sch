@@ -6,8 +6,8 @@
 
   (title_block
     (title "VHF-UHF TRX-Board")
-    (date "2022-01-30")
-    (rev "V 1.0b")
+    (date "2022-01-31")
+    (rev "V 1.1")
     (company "digitalwire.ch")
   )
 
