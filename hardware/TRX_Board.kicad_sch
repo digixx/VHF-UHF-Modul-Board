@@ -2802,10 +2802,10 @@
     (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (id 2) (at 47.625 72.39 0)
       (effects (font (size 1.27 1.27) italic) (justify left) hide)
     )
-    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/1808272021_Vishay-Intertech-SI2301CDS-T1-GE3_C10487.pdf" (id 3) (at 42.545 70.485 0)
+    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/1811081213_Alpha---Omega-Semicon-AO3400A_C20917.pdf" (id 3) (at 42.545 70.485 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "LCSC" "C10487" (id 4) (at 42.545 70.485 0)
+    (property "LCSC" "C20917" (id 4) (at 42.545 70.485 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid fd95099b-62a0-49d9-a280-881a390a7655))
@@ -3127,10 +3127,10 @@
     (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (id 2) (at 47.625 49.53 0)
       (effects (font (size 1.27 1.27) italic) (justify left) hide)
     )
-    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/1808272021_Vishay-Intertech-SI2301CDS-T1-GE3_C10487.pdf" (id 3) (at 42.545 47.625 0)
+    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/1811081213_Alpha---Omega-Semicon-AO3400A_C20917.pdf" (id 3) (at 42.545 47.625 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "LCSC" "C10487" (id 4) (at 42.545 47.625 0)
+    (property "LCSC" "C20917" (id 4) (at 42.545 47.625 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid d91e4ca8-3a9b-42d7-bd8b-c02f79fe3863))
@@ -3314,10 +3314,10 @@
     (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (id 2) (at 47.625 26.035 0)
       (effects (font (size 1.27 1.27) italic) (justify left) hide)
     )
-    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/1808272021_Vishay-Intertech-SI2301CDS-T1-GE3_C10487.pdf" (id 3) (at 42.545 24.13 0)
+    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/1811081213_Alpha---Omega-Semicon-AO3400A_C20917.pdf" (id 3) (at 42.545 24.13 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "LCSC" "C10487" (id 4) (at 42.545 24.13 0)
+    (property "LCSC" "C20917" (id 4) (at 42.545 24.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 611d239c-7bb4-4580-be04-31aaf1b56b5f))
@@ -4408,7 +4408,7 @@
   (symbol (lib_id "power:GND") (at 123.19 82.55 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 8d15e4a3-4d3b-4b83-8857-11d9a1b60429)
-    (property "Reference" "#PWR?" (id 0) (at 123.19 88.9 0)
+    (property "Reference" "#PWR02" (id 0) (at 123.19 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 123.317 86.9442 0))
@@ -4424,9 +4424,9 @@
   (symbol (lib_id "Connector_Generic:Conn_01x03") (at 267.97 93.98 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid a72b9da8-589b-45ae-a2e0-4bd5e50dc3c5)
-    (property "Reference" "J?" (id 0) (at 274.32 93.98 0))
+    (property "Reference" "J5" (id 0) (at 274.32 93.98 0))
     (property "Value" "Conn_01x03" (id 1) (at 262.255 93.98 0))
-    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" (id 2) (at 267.97 93.98 0)
+    (property "Footprint" "Jumper:SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm_NumberLabels" (id 2) (at 267.97 93.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 267.97 93.98 0)
@@ -4444,6 +4444,9 @@
   (symbol_instances
     (path "/00000000-0000-0000-0000-000061ca18a5"
       (reference "#PWR01") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/8d15e4a3-4d3b-4b83-8857-11d9a1b60429"
+      (reference "#PWR02") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-000061a7cf8b"
       (reference "#PWR0101") (unit 1) (value "GND") (footprint "")
@@ -4513,9 +4516,6 @@
     )
     (path "/00000000-0000-0000-0000-000061c3d598"
       (reference "#PWR0123") (unit 1) (value "+3V3") (footprint "")
-    )
-    (path "/8d15e4a3-4d3b-4b83-8857-11d9a1b60429"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-000061adb17e"
       (reference "C1") (unit 1) (value "1uF") (footprint "Capacitor_SMD:C_0805_2012Metric")
@@ -4605,7 +4605,7 @@
       (reference "J4") (unit 1) (value "Conn_01x03") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
     )
     (path "/a72b9da8-589b-45ae-a2e0-4bd5e50dc3c5"
-      (reference "J?") (unit 1) (value "Conn_01x03") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
+      (reference "J5") (unit 1) (value "Conn_01x03") (footprint "Jumper:SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm_NumberLabels")
     )
     (path "/00000000-0000-0000-0000-000061bd53ee"
       (reference "L1") (unit 1) (value "Ferrit") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
