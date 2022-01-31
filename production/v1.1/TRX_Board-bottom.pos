@@ -1,0 +1,8 @@
+### Module positions - created on Mon Jan 31 22:44:46 2022 ###
+### Printed by Pcbnew version (6.0.1)
+## Unit = mm, Angle = deg.
+## Side : bottom
+# Ref     Val       Package                           PosX       PosY       Rot  Side
+FL1       LFCN-160  Filter_Mini-Circuits_FV1206  -110.2360   -77.1150   90.0000  bottom
+U3        DRA818U   DRA818                       -127.0000   -87.3000   90.0000  bottom
+## End
