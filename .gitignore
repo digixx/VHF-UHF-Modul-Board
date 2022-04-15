@@ -13,3 +13,4 @@ fp-info-cache# Netlist files (exported from Eeschema)
 *.dsn
 *.ses
 TRX_Board-backups
+.DS_Store
