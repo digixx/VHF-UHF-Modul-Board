@@ -1,3 +1,4 @@
+sep=;
 "Id";"Designator";"Package";"Quantity";"Designation";"Supplier and ref";
 1;"C1,C6,C10,C11,C19";"C_0805_2012Metric";5;"1uF";;;
 2;"C2,C5,C7,C12,C14";"C_0805_2012Metric";5;"10uF";;;
